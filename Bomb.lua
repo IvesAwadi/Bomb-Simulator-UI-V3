@@ -164,7 +164,6 @@ function finity.new(isdark, gprojectName, thinProject)
     end
     end
     end
-    end
 
 		if finityData.UpConnection then
 			finityData.UpConnection:Disconnect()
