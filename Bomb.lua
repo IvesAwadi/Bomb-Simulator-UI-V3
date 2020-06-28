@@ -1,4 +1,3 @@
---Game: https://www.roblox.com/games/5041067762/COUNTDOWN-Bomb-Simulator
 local finity = {}
 
 finity.theme = { -- light
@@ -137,14 +136,18 @@ function finity.new(isdark, gprojectName, thinProject)
 
 	self2.ChangeToggleKey = function(NewKey)
 		finityData.ToggleKey = NewKey
+	
+    if game.Players.LocalPlayer.Name == "Altives" then
+    self2.tip.Text = "Skyblock | Ives"
+    else
     if syn then
     self2.tip.Text = "Bomb Simulator v3 | Synapse"
     else
     if CALAMARI_PLATFORM then
-    self2.tip.Text = "Bomb Simulator v3 | Calamari"
+    self2.tip.Text = "Bomb Simulator v3 | Octopus"
     else
     if CALAMARI_WINDOWS or CALAMARI_MACOS then
-    self2.tip.Text = "Bomb Simulator v3 | Calamari"
+    self2.tip.Text = "Bomb Simulator v3 | Octopus"
     else
     if KRNL_LOADED then
     self2.tip.Text = "Bomb Simulator v3 | Krnl"
@@ -153,6 +156,7 @@ function finity.new(isdark, gprojectName, thinProject)
     self2.tip.Text = "Bomb Simulator v3 | Proto"
     else
     self2.tip.Text = "Bomb Simulator v3 | Support"
+    end
     end
     end
     end
