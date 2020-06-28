@@ -153,6 +153,13 @@ function finity.new(isdark, gprojectName, thinProject)
     self2.tip.Text = "Bomb Simulator v3 | Proto"
     else
     self2.tip.Text = "Bomb Simulator v3 | Support"
+    else
+    if Sirhurt then
+    self2.tip.Text = "Bomb Simulator v3 | Sirhurt"
+    else
+    if Sirhurt then
+    self2.tip.Text = "Bomb Simulator v3 | Sirhurt"
+    end
     end
     end
     end
