@@ -138,7 +138,7 @@ function finity.new(isdark, gprojectName, thinProject)
 		finityData.ToggleKey = NewKey
 	
     if game.Players.LocalPlayer.Name == "Altives" then
-    self2.tip.Text = "Skyblock | Ives"
+    self2.tip.Text = "Bomb Simulator v3 | Axl | Ives"
     else
     if syn then
     self2.tip.Text = "Bomb Simulator v3 | Synapse"
