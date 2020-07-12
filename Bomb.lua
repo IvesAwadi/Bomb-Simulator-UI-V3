@@ -138,24 +138,24 @@ function finity.new(isdark, gprojectName, thinProject)
 		finityData.ToggleKey = NewKey
 	
     if game.Players.LocalPlayer.Name == "Altives" then
-    self2.tip.Text = "Bomb Simulator v3.5 | Axl | Ives"
+    self2.tip.Text = "Bomb Simulator v4 | Axl | Ives"
     else
     if syn then
-    self2.tip.Text = "Bomb Simulator v3.5 | Synapse"
+    self2.tip.Text = "Bomb Simulator v4 | Synapse"
     else
     if CALAMARI_PLATFORM then
-    self2.tip.Text = "Bomb Simulator v3.5 | Octopus"
+    self2.tip.Text = "Bomb Simulator v4 | Octopus"
     else
     if CALAMARI_WINDOWS or CALAMARI_MACOS then
-    self2.tip.Text = "Bomb Simulator v3.5 | Octopus"
+    self2.tip.Text = "Bomb Simulator v4 | Octopus"
     else
     if KRNL_LOADED then
-    self2.tip.Text = "Bomb Simulator v3.5 | Krnl"
+    self2.tip.Text = "Bomb Simulator v4 | Krnl"
     else
     if is_protosmasher_caller then
-    self2.tip.Text = "Bomb Simulator v3.5 | Proto"
+    self2.tip.Text = "Bomb Simulator v4 | Proto"
     else
-    self2.tip.Text = "Bomb Simulator v3.5 | Support"
+    self2.tip.Text = "Bomb Simulator v4 | Support"
     end
     end
     end
